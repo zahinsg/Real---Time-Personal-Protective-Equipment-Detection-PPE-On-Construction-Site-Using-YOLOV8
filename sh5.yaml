@@ -1,0 +1,22 @@
+train: C:\Users\User\Desktop\SEM 6\CSP650\FYP PROJECT\DATASET\separated_classes\multiclass\splitted\train
+val: C:\Users\User\Desktop\SEM 6\CSP650\FYP PROJECT\DATASET\separated_classes\multiclass\splitted\val
+
+#  0: face-mask
+#  1: gloves
+#  2: helmet
+#  3: shoes
+#  4: safety-vest
+#  5: safety-harness
+#  6: human not needed
+nc: 5
+names:
+  0: face-mask
+  1: gloves
+  2: helmet
+  3: shoes
+  4: safety-vest
+
+#before augment dont have harness
+# [5, 9, 10, 14, 16]
+# [facemask , gloves, helmet, shoes, safety vest]
+# [0. 1, 2, 3, 4]
